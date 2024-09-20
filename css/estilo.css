@@ -1,0 +1,14 @@
+
+   img{
+    width: 80%;
+    height: 300px;
+   }
+body{text-align: center;}
+.cxnome{text-overflow: ellipsis;}
+div{
+    
+}
+label {
+    display:flexbox;
+    margin: 10px 0 10px;
+}

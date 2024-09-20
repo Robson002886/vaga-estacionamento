@@ -1,0 +1,4 @@
+function calcular(){
+alert("ok");
+
+}
