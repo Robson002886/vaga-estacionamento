@@ -9,4 +9,11 @@ function calcular(){
     document.getElementById("cxdias") .value;
     var valor =
     document.getElementById("cxvalor") .value;
-}
+
+    var bruto = parsefloat(valor)*parseint(dias);
+    if(bruto > 150){
+        var total = bruto - (bruto * 0.10);
+        alert("total" + total)
+    }
+    else{ var total = bruto
+    }
